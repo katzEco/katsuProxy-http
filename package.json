@@ -1,0 +1,11 @@
+{
+  "name": "katsuProxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Suphakit P. <me@suphakit.net>",
+  "license": "MIT",
+  "dependencies": {
+    "http": "^0.0.1-security",
+    "http-proxy": "^1.18.1"
+  }
+}
