@@ -7,5 +7,9 @@
   "dependencies": {
     "http": "^0.0.1-security",
     "http-proxy": "^1.18.1"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   }
 }
