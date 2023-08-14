@@ -4,8 +4,8 @@ micros:
   - name: katsuProxy-http
     src: ./
     engine: nodejs16
-    run: node app.js
-    dev: nodemon app.js
+    run: node index.js
+    dev: nodemon index.js
     primary: true
     public: true
     presets:
