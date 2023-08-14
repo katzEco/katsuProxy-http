@@ -1,0 +1,12 @@
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+v: 0
+micros:
+  - name: katsuProxy-http
+    src: ./
+    engine: nodejs16
+    primary: true
+    public: true
+    presets:
+      env:
+        - name: PROXY_ENDPOINT
+          description: Where do you want to use this proxy
