@@ -5,6 +5,7 @@
   "author": "Suphakit P. <me@suphakit.net>",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^16.3.1",
     "http": "^0.0.1-security",
     "http-proxy": "^1.18.1"
   },
